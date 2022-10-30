@@ -1,9 +1,9 @@
 import React from "react";
 
-function TodoCard({ title }) {
+function TodoCard(props) {
   return (
     <div className="card">
-      <h2>{title}</h2>
+      <h2>{props.title}</h2>
       <div className="actions">
         <button className="btn">delete</button>
       </div>
