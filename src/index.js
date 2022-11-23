@@ -5,8 +5,8 @@ import App from "./App";
 
 /**
  *          @About index.js
- *    + index.js is the starting point of react application. Which means code written in here
- *      will be the first code to executed on the browsers.
+ *    + index.js is the starting point of react application. Which means code written
+ *      in here will be the first code to executed on the browsers.
  *
  */
 
