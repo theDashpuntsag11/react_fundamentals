@@ -5,9 +5,9 @@ import LessionTwo from "./02RoutingAndNaviagtion/LessonTwo";
 import { BrowserRouter } from "react-router-dom";
 
 /**
- *          @About index.js
- *    + index.js is the starting point of react application. Which means code written
- *      in here will be the first code to executed on the browsers.
+ *       @About index.js
+ *      + index.js is the starting point of react application. Which means code written
+ *        in here will be the first code to executed on the browsers.
  *
  */
 
