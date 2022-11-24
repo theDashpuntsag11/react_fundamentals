@@ -18,5 +18,8 @@ React.Js is Javascipt library for frontend development.
 
 Simply run following command:
 
+    // Installing Node modules
     npm install
+
+    // Starting react
     npm start
