@@ -13,3 +13,10 @@ In this ReadMe.md file you can read about simplified my version of React.
 React.Js is Javascipt library for frontend development.
 
 ## How React.js works
+
+## Run the project
+
+Simply run following command:
+
+    npm install
+    npm start
