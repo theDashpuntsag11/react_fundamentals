@@ -1,6 +1,8 @@
 import TodoCard from "./components/TodoCard";
+import React from "react";
+import "./index.css";
 
-function App() {
+function LessionOne() {
   return (
     <div>
       <h1>My todos</h1>
@@ -12,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default LessionOne;
