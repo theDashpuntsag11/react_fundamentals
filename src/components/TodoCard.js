@@ -15,6 +15,10 @@ import React from "react";
  *          dynamic expressions as a part of the JSX code
  *
  *      + Handleing events
+ *        - React is a decarative framework.
+ *        - In a normal HTML and JS web we need an unique id or class name to handle the event
+ *          that is happening there
+ *        - In React you can just pass function via onClick attribute
  *
  **/
 
