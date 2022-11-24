@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import Backdrop from "./Backdrop";
+import Modal from "./Modal";
 
 /**
  *    + Componenet
@@ -23,9 +25,10 @@ import React from "react";
  **/
 
 function TodoCard(props) {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
   function deleteHandler() {
-    console.log("Clicked!");
-    console.log(props.title);
+    setModalIsOpen(true);
   }
 
   return (
@@ -36,6 +39,21 @@ function TodoCard(props) {
           delete
         </button>
       </div>
+      {modalIsOpen && (
+        <>
+          <Modal
+            onCancelClick={() => {
+              setModalIsOpen(false);
+            }}
+            onConfirmClick={() => {}}
+          />
+          <Backdrop
+            onClick={() => {
+              setModalIsOpen(false);
+            }}
+          />
+        </>
+      )}
     </div>
   );
 }
