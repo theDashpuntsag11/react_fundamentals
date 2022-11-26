@@ -3,7 +3,7 @@
 This repository is Complete understating of my personal experience.
 In this ReadMe.md file you can read about simplified my version of React.
 
-| @Key            | Value             |
+| Title           | Value             |
 | --------------- | ----------------- |
 | @author:        | Dashpuntsag Oidov |
 | @react version: | 18.0.3            |
