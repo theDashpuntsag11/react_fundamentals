@@ -12,7 +12,12 @@ In this ReadMe.md file you can read about simplified my version of React.
 
 ## What is React.js ?
 
-React.Js is Javascipt library for frontend development.
+React.Js is Javascipt library for frontend development. 
+
+### Why choose react 
+
+- Declarative(Minimal syntax).
+- Component based(Reusable).
 
 ## How React.js works
 
