@@ -19,6 +19,8 @@ React.Js is Javascipt library for frontend development.
 - Declarative(Minimal syntax).
 - Component based(Reusable).
 
+### Other references
+
 ## How React.js works
 
 ## Run the project
