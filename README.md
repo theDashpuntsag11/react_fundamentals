@@ -19,12 +19,9 @@ React.Js is Javascipt library for frontend development.
 - Declarative(Minimal syntax).
 - Component based(Reusable).
 
-### Other references
-
 ## How React.js works
 
 ## Run the project
-
 Simply run following command:
 
     // Installing Node modules
@@ -32,3 +29,5 @@ Simply run following command:
 
     // Starting react
     npm start
+    
+## Other references
