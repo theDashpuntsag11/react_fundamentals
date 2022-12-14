@@ -36,5 +36,5 @@ Simply run following command:
 
 Swiper is one of the most simle yet most useful feature of a web application. There are many ways to implement swiper in web and one of those ways is using react/swiper library
 
-documentation: https://swiperjs.com/react#what-next 
-demo/sandbox: https://swiperjs.com/demos
+* documentation: https://swiperjs.com/react#what-next 
+* demo/sandbox: https://swiperjs.com/demos
