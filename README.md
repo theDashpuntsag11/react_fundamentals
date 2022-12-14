@@ -30,7 +30,6 @@ Simply run following command:
     // Starting react
     npm start
     
-##Useful references
 
 ### Making swiper in react
 
