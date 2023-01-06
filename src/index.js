@@ -3,7 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import LessionOne from "./01PropsAndState/LessionOne";
 import LessionTwo from "./02RoutingAndNaviagtion/LessonTwo";
-import { BrowserRouter } from "react-router-dom";
 
 /**
  *    @Suggestion
@@ -32,16 +31,15 @@ import { BrowserRouter } from "react-router-dom";
 
 /**
  *  @Section02 Routing and Navigation
+ *      + Routing is one of the essentials in Web developing.
+ *      + Here is most useful links to learn about routing
+ *        - https://reactrouter.com/en/main
+ *        - https://www.w3schools.com/react/react_router.asp
  *
  *
  */
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <BrowserRouter>
-    <LessionTwo />
-  </BrowserRouter>
-);
+root.render(<LessionTwo />);
 
 // --------------------------------------------------------------------------------------------
 

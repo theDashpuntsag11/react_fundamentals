@@ -1,7 +1,5 @@
 import React from "react";
 
-function AllMeetupsPage() {
+export default function AllMeetupsPage() {
   return <div>AllMeetupsPage</div>;
 }
-
-export default AllMeetupsPage;
