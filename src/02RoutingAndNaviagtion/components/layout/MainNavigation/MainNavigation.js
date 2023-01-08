@@ -1,5 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import styles from "./MainNavigation.module.css";
 
 function MainNavigation() {
   /**
@@ -12,10 +12,16 @@ function MainNavigation() {
    *            Whenever we click it a new request will be sent to the hosting server.
    *            So insteat Link component from "react-router-dom" is highly suggested.
    *
+   *      @CSS_module
+   *        + CSS module is a technique that will make sure which we can attach CSS files to
+   *          specific component.
+   *        + To bind your css files to specific component your css file name must end with
+   *          ".module.css"
+   *
    */
   return (
-    <header>
-      <div>React meetups</div>
+    <header className={styles.header}>
+      <div className={styles.logo}>MeetUps</div>
       <nav>
         <ul>
           <li>

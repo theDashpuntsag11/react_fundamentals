@@ -28,7 +28,9 @@ import MainNavigation from "./components/layout/MainNavigation/MainNavigation";
  *
  *    @CSS_Files
  *      - In the small project 1 CSS file would be enough to contain styles for all components.
- *      - But this approach is not necessary for a bigger project
+ *      - But this approach is not necessary for a bigger project.
+ *      - Therefore you typically need to have a diffrent CSS files for each components.
+ *
  */
 
 const router = createBrowserRouter([
