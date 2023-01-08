@@ -48,7 +48,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-export default function LessionTwo() {
+export default function App() {
   return (
     /**
      *
